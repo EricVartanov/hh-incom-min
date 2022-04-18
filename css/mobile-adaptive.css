@@ -1,0 +1,123 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .idc-footer .idc-container {
+        padding-bottom: 15px;
+    }
+    .idc-ps {
+        margin-top: 50px;
+    }
+    .idc-dots {
+        width: 145px;
+        bottom: -20px;
+    }
+    .idc-loop {
+        width: 77px;
+        right: 20px;
+        bottom: 10px;
+    }
+    .idc-line {
+        right: -70px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        height: 91vw;
+    }
+    .idc-head-bg {
+        margin-top: 55px;
+    }
+
+    /* *****pluses*** */
+    .idc-pluse {
+        width: calc(50% - 5px);
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .idc-pluse:nth-child(4),
+    .idc-pluse:nth-child(10) {
+        margin-left: 10px;
+    }
+    .idc-pluse:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .idc-pluse .idc-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 12px;
+        padding-left: 14px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 60px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 5px;
+        height: 5px;
+    }
+
+    /* ***********************footer****************** */
+    .idc-footer .idc-container {
+        padding-top: 18vw;
+        padding-bottom: 15px;
+    }
+
+    .idc-line {
+        width: 47vw;
+        top: 12px;
+        right: 0;
+    }
+    .idc-dots {
+        width: 85px;
+        bottom: 0;
+        left: 0;
+    }
+    .idc-loop {
+        width: 33px;
+        right: 15px;
+        bottom: 35px;
+    }
+    .idc-footer .idc-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-footer .idc-title > span {
+        color: #ff9900;
+        font-weight: 700;
+    }
+    .idc-ps {
+        margin: 0 auto;
+        margin-top: 60px;
+        font-size: 8px;
+        line-height: 9px;
+    }
+}
